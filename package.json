@@ -1,0 +1,9 @@
+{
+  "name": "vircurex-scraper",
+  "description": "Application that allows to check current wallet value",
+  "author": "Wojciech Kwiatek <wojtek.kwiatek@gmail.com>",
+  "dependencies": {
+    "request": "~2.30.0",
+    "cheerio": "~0.12.4"
+  }
+}
