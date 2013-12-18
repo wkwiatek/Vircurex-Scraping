@@ -13,6 +13,7 @@ var startingValueInBTC = 0.2;
 var startingValueInUSD = 170;
 
 console.log('Scraping ' + url +' in progress...');
+makeRequest();
 setInterval(makeRequest, 300000);
 
 function makeRequest(){
