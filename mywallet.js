@@ -41,7 +41,7 @@ function makeRequest(){
 		console.log('which is exactly:\t' + valueInUSD + ' USD\n');
 
 		var percent = (startingValueInUSD - valueInUSD)/startingValueInUSD * 100;
-		var percentageGain = valueInUSD - startingValueInUSD < 0 ? -percent : percent
+		var percentageGain = valueInUSD - startingValueInUSD;
 		console.log('It is currently: ' + percentageGain + '%\n');
 	});
 }
