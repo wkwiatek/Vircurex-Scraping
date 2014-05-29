@@ -40,8 +40,7 @@ function makeRequest(){
 		console.log('\nSummary of your wallet:\t' + valueInBTC + ' BTC');
 		console.log('which is exactly:\t' + valueInUSD + ' USD\n');
 
-		var percent = (startingValueInUSD - valueInUSD)/startingValueInUSD * 100;
-		var percentageGain = valueInUSD - startingValueInUSD;
+		var percentageGain = (valueInUSD - startingValueInUSD)/startingValueInUSD * 100;
 		console.log('It is currently: ' + percentageGain + '%\n');
 	});
 }
